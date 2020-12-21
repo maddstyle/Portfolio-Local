@@ -1,0 +1,263 @@
+[21-Nov-2020 18:27:15 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php on line 1635
+[21-Nov-2020 18:27:15 UTC] PHP Stack trace:
+[21-Nov-2020 18:27:15 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[21-Nov-2020 18:27:15 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[21-Nov-2020 18:27:15 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[21-Nov-2020 18:27:15 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[21-Nov-2020 18:27:15 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[21-Nov-2020 18:27:15 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[21-Nov-2020 18:27:15 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[21-Nov-2020 18:27:15 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[21-Nov-2020 18:27:15 UTC] PHP   9. require_wp_db() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:124
+[21-Nov-2020 18:27:15 UTC] PHP  10. wpdb->__construct() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/load.php:482
+[21-Nov-2020 18:27:15 UTC] PHP  11. wpdb->db_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:632
+[21-Nov-2020 18:27:15 UTC] PHP  12. mysqli_real_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:1635
+[21-Nov-2020 18:27:18 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php on line 1635
+[21-Nov-2020 18:27:18 UTC] PHP Stack trace:
+[21-Nov-2020 18:27:18 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[21-Nov-2020 18:27:18 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[21-Nov-2020 18:27:18 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[21-Nov-2020 18:27:18 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[21-Nov-2020 18:27:18 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[21-Nov-2020 18:27:18 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[21-Nov-2020 18:27:18 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[21-Nov-2020 18:27:18 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[21-Nov-2020 18:27:18 UTC] PHP   9. require_wp_db() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:124
+[21-Nov-2020 18:27:18 UTC] PHP  10. wpdb->__construct() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/load.php:482
+[21-Nov-2020 18:27:18 UTC] PHP  11. wpdb->db_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:632
+[21-Nov-2020 18:27:18 UTC] PHP  12. mysqli_real_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:1635
+[21-Dec-2020 17:09:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:33 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:33 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:0
+[21-Dec-2020 17:09:33 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:10
+[21-Dec-2020 17:09:33 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:09:33 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:33 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:33 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:33 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:33 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:09:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:33 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:33 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-cron.php:0
+[21-Dec-2020 17:09:33 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-cron.php:44
+[21-Dec-2020 17:09:33 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:33 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:33 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:33 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:33 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:09:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:33 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:33 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:33 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:09:33 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:33 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:09:33 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:09:33 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:09:33 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:33 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:33 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:33 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:33 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:33 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:33 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:33 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:09:33 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:33 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:09:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:36 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:36 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:0
+[21-Dec-2020 17:09:36 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:10
+[21-Dec-2020 17:09:36 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:09:36 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:36 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:36 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:36 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:09:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:37 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:37 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:09:37 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:09:37 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:37 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:37 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:37 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:37 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:09:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:09:37 UTC] PHP Stack trace:
+[21-Dec-2020 17:09:37 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:09:37 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:09:37 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:09:37 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:09:37 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:09:37 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:09:37 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:10:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:10:38 UTC] PHP Stack trace:
+[21-Dec-2020 17:10:38 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:10:38 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:10:38 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:10:38 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:10:38 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:10:38 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:10:38 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:12:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:12:39 UTC] PHP Stack trace:
+[21-Dec-2020 17:12:39 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:12:39 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:12:39 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:12:39 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:12:39 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:12:39 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:12:39 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:47 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:47 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:13:47 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:13:47 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:47 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:47 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:47 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:47 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:55 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:55 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:0
+[21-Dec-2020 17:13:55 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:10
+[21-Dec-2020 17:13:55 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:13:55 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:55 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:55 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:55 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:55 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:56 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:56 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:56 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:13:56 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:13:56 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:13:56 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:56 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:13:56 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:56 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:56 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:56 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:56 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:56 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:56 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:56 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:56 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:57 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:57 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:0
+[21-Dec-2020 17:13:57 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:10
+[21-Dec-2020 17:13:57 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:13:57 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:57 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:57 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:57 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:57 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:13:58 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:58 UTC] PHP Stack trace:
+[21-Dec-2020 17:13:58 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:13:58 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:13:58 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:13:58 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:58 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:58 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:13:58 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:13:58 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:58 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:58 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:13:58 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:13:58 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:13:58 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:13:58 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:14:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:14:02 UTC] PHP Stack trace:
+[21-Dec-2020 17:14:02 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit.php:0
+[21-Dec-2020 17:14:02 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit.php:10
+[21-Dec-2020 17:14:02 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:14:02 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:14:02 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:14:02 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:14:02 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:14:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:14:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:14:02 UTC] PHP Stack trace:
+[21-Dec-2020 17:14:02 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:14:02 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:14:02 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:14:02 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:14:02 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:14:02 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:14:02 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:14:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:14:05 UTC] PHP Stack trace:
+[21-Dec-2020 17:14:05 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/plugins.php:0
+[21-Dec-2020 17:14:05 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/plugins.php:10
+[21-Dec-2020 17:14:05 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:14:05 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:14:05 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:14:05 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:14:05 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:14:05 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:14:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:14:50 UTC] PHP Stack trace:
+[21-Dec-2020 17:14:50 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/themes.php:0
+[21-Dec-2020 17:14:50 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/themes.php:10
+[21-Dec-2020 17:14:50 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:14:50 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:14:50 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:14:50 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:14:50 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:14:50 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:14:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:14:59 UTC] PHP Stack trace:
+[21-Dec-2020 17:14:59 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/themes.php:0
+[21-Dec-2020 17:14:59 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/themes.php:10
+[21-Dec-2020 17:14:59 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:14:59 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:14:59 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:14:59 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:14:59 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:14:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:15:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:15:37 UTC] PHP Stack trace:
+[21-Dec-2020 17:15:37 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/themes.php:0
+[21-Dec-2020 17:15:37 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/themes.php:10
+[21-Dec-2020 17:15:37 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:15:37 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:15:37 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:15:37 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:15:37 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:15:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:15:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:15:52 UTC] PHP Stack trace:
+[21-Dec-2020 17:15:52 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:0
+[21-Dec-2020 17:15:52 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/index.php:10
+[21-Dec-2020 17:15:52 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin.php:34
+[21-Dec-2020 17:15:52 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:15:52 UTC] PHP   5. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:15:52 UTC] PHP   6. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:15:52 UTC] PHP   7. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:15:52 UTC] PHP   8. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:15:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:15:52 UTC] PHP Stack trace:
+[21-Dec-2020 17:15:52 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:15:52 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:15:52 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:15:52 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:15:52 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:15:52 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:15:52 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[21-Dec-2020 17:15:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'creat_custom_post_types' not found or invalid function name in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php on line 287
+[21-Dec-2020 17:15:52 UTC] PHP Stack trace:
+[21-Dec-2020 17:15:52 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:0
+[21-Dec-2020 17:15:52 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-ajax.php:22
+[21-Dec-2020 17:15:52 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-load.php:37
+[21-Dec-2020 17:15:52 UTC] PHP   4. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-config.php:89
+[21-Dec-2020 17:15:52 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
+[21-Dec-2020 17:15:52 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[21-Dec-2020 17:15:52 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
