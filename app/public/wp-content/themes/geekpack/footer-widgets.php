@@ -20,11 +20,9 @@
 		<footer id="colophon" class="site-footer inner">
 
 			<div id="footer" class="widget-area">
-				<div class="wrap">
-					<div class="inner"><?php dynamic_sidebar('footer'); ?></div>
-				</div>
+					<?php dynamic_sidebar('footer'); ?></
 			</div>
-
+<!-- commented out because i'm creating my own footer content -->
 			<!--
 				<div class="site-info">
 					<a href="<?php echo esc_url(__('https://wordpress.org/', 'geekpack-underscores')); ?>">

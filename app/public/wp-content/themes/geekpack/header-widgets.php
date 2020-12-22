@@ -61,7 +61,7 @@
 				<div class="hero">
 					<h1 class="hero-heading">Complete<br>Digital Strategy</h1>
 					<p class="hero-paragraph">for small businesses</p>
-					<a class="button" href="#">Learn More</a>
+					<a class="button" href="/our-services">Learn More</a>
 					<div></div>
 				</div>
 			<?php else : ?>
