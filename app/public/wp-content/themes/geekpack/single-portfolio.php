@@ -13,24 +13,69 @@
  * @package geekpack
  */
 
-get_header();
+get_header('widgets');
 ?>
 
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
 
-    <?php
-    while (have_posts()) : the_post(); ?>
+    <div id="below-header" class="widget-area">
+      <div class="wrap">
+        <div class="inner"><?php dynamic_sidebar('below-header'); ?>
+          <h1><?php the_title(); ?></h1>
+        </div>
+      </div>
+    </div>
 
-    <?php the_content(); ?>
+    <div class="wrap">
+      <div class="inner">
+        <?php
+        while (have_posts()) : the_post();
 
+          $details = get_field('project_details');
+          $url = get_field('website-url');
+          $image_1 = get_field('image_1');
+          $image_2 = get_field('image_2');
+          $image_3 = get_field('image_3');
+          $size = "full"; ?>
 
-    <?php endwhile; // End of the loop.
-    ?>
+          <div class="portfolio-content-single">
+            <div class="portfolio-content-text">
+              <h3>Project Details: <?php echo $details; ?></h3>
+
+              <?php the_content(); ?>
+
+              <div class="portfolio-content-buttons">
+                <a href="<?php echo $url; ?>" target="_blank" class="button">Visit Live Site</a>
+                <a href="/portfolio" class="button">Back to Our Work</a>
+              </div>
+            </div>
+            <div class="portfolio-content-images">
+              <?php if ($image_1) {
+                echo wp_get_attachment_image($image_1, $size);
+              } ?>
+              <?php if ($image_2) {
+                echo wp_get_attachment_image($image_2, $size);
+              } ?>
+              <?php if ($image_3) {
+                echo wp_get_attachment_image($image_3, $size);
+              } ?>
+            </div>
+          </div>
+
+        <?php endwhile; // End of the loop.
+        ?>
+      </div>
+    </div>
+
+    <div id="above-footer" class="widget-area">
+      <div class="wrap">
+        <div class="inner"><?php dynamic_sidebar('above-footer'); ?></div>
+      </div>
+    </div>
 
   </main><!-- #main -->
 </div><!-- #primary -->
 
 <?php
-get_sidebar();
-get_footer();
+get_footer('widgets');

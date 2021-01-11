@@ -431,7 +431,8 @@ template {
 }
 
 .page #primary,
-.home #primary {
+.home #primary, 
+.single-portfolio #primary {
 	width: 100%;
 	padding-right: 0;
 }

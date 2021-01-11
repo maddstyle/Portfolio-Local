@@ -261,3 +261,587 @@
 [21-Dec-2020 17:15:52 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:557
 [21-Dec-2020 17:15:52 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
 [21-Dec-2020 17:15:52 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 04:55:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php on line 1653
+[11-Jan-2021 04:55:58 UTC] PHP Stack trace:
+[11-Jan-2021 04:55:58 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[11-Jan-2021 04:55:58 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[11-Jan-2021 04:55:58 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Jan-2021 04:55:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Jan-2021 04:55:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[11-Jan-2021 04:55:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Jan-2021 04:55:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[11-Jan-2021 04:55:58 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[11-Jan-2021 04:55:58 UTC] PHP   9. require_wp_db() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:124
+[11-Jan-2021 04:55:58 UTC] PHP  10. wpdb->__construct() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/load.php:527
+[11-Jan-2021 04:55:58 UTC] PHP  11. wpdb->db_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:632
+[11-Jan-2021 04:55:58 UTC] PHP  12. mysqli_real_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:1653
+[11-Jan-2021 04:56:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php on line 1653
+[11-Jan-2021 04:56:05 UTC] PHP Stack trace:
+[11-Jan-2021 04:56:05 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[11-Jan-2021 04:56:05 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[11-Jan-2021 04:56:05 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[11-Jan-2021 04:56:05 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[11-Jan-2021 04:56:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[11-Jan-2021 04:56:05 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[11-Jan-2021 04:56:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[11-Jan-2021 04:56:05 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[11-Jan-2021 04:56:05 UTC] PHP   9. require_wp_db() /Users/michaeladecamara/www/portfolio/app/public/wp-settings.php:124
+[11-Jan-2021 04:56:05 UTC] PHP  10. wpdb->__construct() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/load.php:527
+[11-Jan-2021 04:56:05 UTC] PHP  11. wpdb->db_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:632
+[11-Jan-2021 04:56:05 UTC] PHP  12. mysqli_real_connect() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/wp-db.php:1653
+[11-Jan-2021 05:28:23 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:28:23 UTC] PHP Stack trace:
+[11-Jan-2021 05:28:23 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:28:23 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:28:23 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:28:23 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:28:23 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:28:23 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:28:23 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:28:23 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:28:23 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:28:23 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:28:23 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:29:00 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:29:00 UTC] PHP Stack trace:
+[11-Jan-2021 05:29:00 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:29:00 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:29:00 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:29:00 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:29:00 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:29:00 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:29:00 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:29:00 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:29:00 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:29:00 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:29:00 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:29:41 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:29:41 UTC] PHP Stack trace:
+[11-Jan-2021 05:29:41 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:29:41 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:29:41 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:29:41 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:29:41 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:29:41 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:29:41 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:29:41 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:29:41 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:29:41 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:29:41 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:29:52 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:29:52 UTC] PHP Stack trace:
+[11-Jan-2021 05:29:52 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:29:52 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:29:52 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:29:52 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:29:52 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:29:52 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:29:52 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:29:52 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:29:52 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:29:52 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:29:52 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:30:02 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:30:02 UTC] PHP Stack trace:
+[11-Jan-2021 05:30:02 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:30:02 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:30:02 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:30:02 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:30:02 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:30:02 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:30:02 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:30:02 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:30:02 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:30:02 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:30:02 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:36:16 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:36:16 UTC] PHP Stack trace:
+[11-Jan-2021 05:36:16 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:36:16 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:36:16 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:36:16 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:36:16 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:36:16 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:36:16 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:36:16 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:36:16 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:36:16 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:36:16 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:46:31 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:46:31 UTC] PHP Stack trace:
+[11-Jan-2021 05:46:31 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:46:31 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:46:31 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:46:31 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:46:31 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:46:31 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:46:31 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:46:31 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:46:31 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:46:31 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:46:31 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:48:26 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:48:26 UTC] PHP Stack trace:
+[11-Jan-2021 05:48:26 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:48:26 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:48:26 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:48:26 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:48:26 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:48:26 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:48:26 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:48:26 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:48:26 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:48:26 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:48:26 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:48:37 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:48:37 UTC] PHP Stack trace:
+[11-Jan-2021 05:48:37 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:48:37 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:48:37 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:48:37 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:48:37 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:48:37 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:48:37 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:48:37 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:48:37 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:48:37 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:48:37 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 05:51:26 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 05:51:26 UTC] PHP Stack trace:
+[11-Jan-2021 05:51:26 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 05:51:26 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 05:51:26 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 05:51:26 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 05:51:26 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 05:51:26 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 05:51:26 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 05:51:26 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 05:51:26 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 05:51:26 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 05:51:26 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:07:05 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:07:05 UTC] PHP Stack trace:
+[11-Jan-2021 06:07:05 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:07:05 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 06:07:05 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:07:05 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:07:05 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:07:05 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:07:05 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:07:05 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:07:05 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:07:05 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:07:05 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:07:05 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:07:05 UTC] PHP Stack trace:
+[11-Jan-2021 06:07:05 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:07:05 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 06:07:05 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:07:05 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:07:05 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:07:05 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:07:05 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:07:05 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:07:05 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:07:05 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:07:05 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:07:05 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:07:05 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:07:05 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:07:05 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:32:08 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:32:08 UTC] PHP Stack trace:
+[11-Jan-2021 06:32:08 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:32:08 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 06:32:08 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:32:08 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:32:08 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:32:08 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:32:08 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:32:08 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:32:08 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:32:08 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:32:08 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:32:08 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:32:08 UTC] PHP Stack trace:
+[11-Jan-2021 06:32:08 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:32:08 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 06:32:08 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:32:08 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:32:08 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:32:08 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:32:08 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:32:08 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:32:08 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:32:08 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:32:08 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:32:08 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:32:08 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:32:08 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:32:08 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:55:45 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:55:45 UTC] PHP Stack trace:
+[11-Jan-2021 06:55:45 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:55:45 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 06:55:45 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:55:45 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:55:45 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:55:45 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:55:45 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:55:45 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:55:45 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:55:45 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:55:45 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:55:45 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:55:45 UTC] PHP Stack trace:
+[11-Jan-2021 06:55:45 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:55:45 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 06:55:45 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:55:45 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:55:45 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:55:45 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:55:45 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:55:45 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:55:45 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:55:45 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:55:45 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:55:45 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:55:45 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:55:45 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:55:45 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:04 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:04 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:04 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:56:04 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 06:56:04 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:56:04 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:04 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:04 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:04 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:04 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:04 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:04 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:04 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:04 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:04 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:04 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:56:04 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 06:56:04 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:56:04 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:04 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:04 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:04 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:56:04 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:04 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:04 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:04 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:04 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:04 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:04 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:04 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:06 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:06 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:06 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:0
+[11-Jan-2021 06:56:06 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:75
+[11-Jan-2021 06:56:06 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:56:06 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:06 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:06 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:06 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:06 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:06 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:06 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:06 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:06 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:06 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:06 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:0
+[11-Jan-2021 06:56:06 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:83
+[11-Jan-2021 06:56:06 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:56:06 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:06 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:06 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:06 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:56:06 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:06 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:06 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:06 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:06 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:06 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:06 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:06 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:34 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:34 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:34 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:56:34 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 06:56:34 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:56:34 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:34 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:34 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:34 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:34 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:34 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:34 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:34 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:34 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:34 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:34 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:56:34 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 06:56:34 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:56:34 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:34 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:34 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:34 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:56:34 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:34 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:34 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:34 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:34 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:34 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:34 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:34 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:36 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:36 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:36 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:0
+[11-Jan-2021 06:56:36 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:75
+[11-Jan-2021 06:56:36 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:56:36 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:36 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:36 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:36 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:36 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:36 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:36 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:36 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:56:36 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:56:36 UTC] PHP Stack trace:
+[11-Jan-2021 06:56:36 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:0
+[11-Jan-2021 06:56:36 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post-new.php:83
+[11-Jan-2021 06:56:36 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:56:36 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:36 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:36 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:36 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:56:36 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:56:36 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:56:36 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:56:36 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:56:36 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:56:36 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:56:36 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:56:36 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:58:45 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:58:45 UTC] PHP Stack trace:
+[11-Jan-2021 06:58:45 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:58:45 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 06:58:45 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 06:58:45 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:58:45 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:58:45 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:58:45 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:58:45 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:58:45 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:58:45 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:58:45 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 06:58:45 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 06:58:45 UTC] PHP Stack trace:
+[11-Jan-2021 06:58:45 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 06:58:45 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 06:58:45 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 06:58:45 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:58:45 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:58:45 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:58:45 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 06:58:45 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 06:58:45 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 06:58:45 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 06:58:45 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 06:58:45 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 06:58:45 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 06:58:45 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 06:58:45 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 07:02:50 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 07:02:50 UTC] PHP Stack trace:
+[11-Jan-2021 07:02:50 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 07:02:50 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 07:02:50 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 07:02:50 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 07:02:50 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 07:02:50 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:02:50 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:02:50 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:02:50 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 07:02:50 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 07:02:50 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 07:02:50 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 07:02:50 UTC] PHP Stack trace:
+[11-Jan-2021 07:02:50 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 07:02:50 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 07:02:50 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 07:02:50 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:02:50 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:02:50 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:02:50 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 07:02:50 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 07:02:50 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 07:02:50 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:02:50 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:02:50 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:02:50 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 07:02:50 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 07:02:50 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 07:02:54 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 07:02:54 UTC] PHP Stack trace:
+[11-Jan-2021 07:02:54 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 07:02:54 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 07:02:54 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 07:02:54 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 07:02:54 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 07:02:54 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:02:54 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:02:54 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:02:54 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 07:02:54 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 07:02:54 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 07:02:54 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 07:02:54 UTC] PHP Stack trace:
+[11-Jan-2021 07:02:54 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 07:02:54 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 07:02:54 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 07:02:54 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:02:54 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:02:54 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:02:54 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 07:02:54 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 07:02:54 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 07:02:54 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:02:54 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:02:54 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:02:54 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 07:02:54 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 07:02:54 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 07:03:34 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 07:03:34 UTC] PHP Stack trace:
+[11-Jan-2021 07:03:34 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 07:03:34 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 07:03:34 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 07:03:34 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 07:03:34 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 07:03:34 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:03:34 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:03:34 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:03:34 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 07:03:34 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 07:03:34 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 07:03:34 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 07:03:34 UTC] PHP Stack trace:
+[11-Jan-2021 07:03:34 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 07:03:34 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 07:03:34 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 07:03:34 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:03:34 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:03:34 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:03:34 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 07:03:34 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 07:03:34 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 07:03:34 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 07:03:34 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 07:03:34 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 07:03:34 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 07:03:34 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 07:03:34 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 17:21:30 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 17:21:30 UTC] PHP Stack trace:
+[11-Jan-2021 17:21:30 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 17:21:30 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 17:21:30 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 17:21:30 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 17:21:30 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 17:21:30 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:21:30 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:21:30 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:21:30 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 17:21:30 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 17:21:30 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 17:21:30 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 17:21:30 UTC] PHP Stack trace:
+[11-Jan-2021 17:21:30 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 17:21:30 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 17:21:30 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 17:21:30 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:21:30 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:21:30 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:21:30 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 17:21:30 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 17:21:30 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 17:21:30 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:21:30 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:21:30 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:21:30 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 17:21:30 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 17:21:30 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 17:25:24 UTC] PHP Notice:  Undefined variable: image_3 in /Users/michaeladecamara/www/portfolio/app/public/wp-content/themes/geekpack/single-portfolio.php on line 60
+[11-Jan-2021 17:25:24 UTC] PHP Stack trace:
+[11-Jan-2021 17:25:24 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/index.php:0
+[11-Jan-2021 17:25:24 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/index.php:17
+[11-Jan-2021 17:25:24 UTC] PHP   3. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-blog-header.php:19
+[11-Jan-2021 17:25:24 UTC] PHP   4. include() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/template-loader.php:106
+[11-Jan-2021 17:26:51 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 17:26:51 UTC] PHP Stack trace:
+[11-Jan-2021 17:26:51 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 17:26:51 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 17:26:51 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 17:26:51 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 17:26:51 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 17:26:51 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:26:51 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:26:51 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:26:51 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 17:26:51 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 17:26:51 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 17:26:51 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 17:26:51 UTC] PHP Stack trace:
+[11-Jan-2021 17:26:51 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 17:26:51 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 17:26:51 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 17:26:51 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:26:51 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:26:51 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:26:51 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 17:26:51 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 17:26:51 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 17:26:51 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:26:51 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:26:51 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:26:51 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 17:26:51 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 17:26:51 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 17:27:22 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 17:27:22 UTC] PHP Stack trace:
+[11-Jan-2021 17:27:22 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 17:27:22 UTC] PHP   2. require() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:206
+[11-Jan-2021 17:27:22 UTC] PHP   3. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/edit-form-advanced.php:604
+[11-Jan-2021 17:27:22 UTC] PHP   4. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 17:27:22 UTC] PHP   5. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 17:27:22 UTC] PHP   6. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:27:22 UTC] PHP   7. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:27:22 UTC] PHP   8. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:27:22 UTC] PHP   9. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 17:27:22 UTC] PHP  10. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 17:27:22 UTC] PHP  11. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
+[11-Jan-2021 17:27:22 UTC] PHP Deprecated:  media_buttons_context is <strong>deprecated</strong> since version 3.5.0! Use media_buttons instead. in /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php on line 5234
+[11-Jan-2021 17:27:22 UTC] PHP Stack trace:
+[11-Jan-2021 17:27:22 UTC] PHP   1. {main}() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:0
+[11-Jan-2021 17:27:22 UTC] PHP   2. require_once() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/post.php:369
+[11-Jan-2021 17:27:22 UTC] PHP   3. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/admin-footer.php:78
+[11-Jan-2021 17:27:22 UTC] PHP   4. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:27:22 UTC] PHP   5. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:27:22 UTC] PHP   6. ACF_Assets->print_uploader_scripts() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:27:22 UTC] PHP   7. wp_editor() /Users/michaeladecamara/www/portfolio/app/public/wp-content/plugins/advanced-custom-fields/includes/assets.php:521
+[11-Jan-2021 17:27:22 UTC] PHP   8. _WP_Editors::editor() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/general-template.php:3536
+[11-Jan-2021 17:27:22 UTC] PHP   9. do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-editor.php:235
+[11-Jan-2021 17:27:22 UTC] PHP  10. WP_Hook->do_action() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:484
+[11-Jan-2021 17:27:22 UTC] PHP  11. WP_Hook->apply_filters() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:311
+[11-Jan-2021 17:27:22 UTC] PHP  12. media_buttons() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/class-wp-hook.php:287
+[11-Jan-2021 17:27:22 UTC] PHP  13. apply_filters_deprecated() /Users/michaeladecamara/www/portfolio/app/public/wp-admin/includes/media.php:656
+[11-Jan-2021 17:27:22 UTC] PHP  14. _deprecated_hook() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/plugin.php:638
+[11-Jan-2021 17:27:22 UTC] PHP  15. trigger_error() /Users/michaeladecamara/www/portfolio/app/public/wp-includes/functions.php:5234
