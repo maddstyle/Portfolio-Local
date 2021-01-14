@@ -47,7 +47,9 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'geekpack-underscores' ); ?></button>
+					<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'geekpack-underscores' ); ?></button> -->
+					<!-- this will replace button in header at the breakpoint of mobile  -->
+					<button class="menu-toggle" href="#">&#9776; MENU</button>
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',

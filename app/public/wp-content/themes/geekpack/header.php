@@ -28,8 +28,11 @@
 
 			<header id="masthead" class="site-header inner">
 				<div class="site-branding">
+					//this will add svg image into the logo area for a clear picture
+				<img src="<?php echo the_custom_logo(); ?>
+				/images/maddLogo.svg" alt="Maddstyle logo">
 					<?php
-					the_custom_logo();
+					// the_custom_logo();
 					if ( is_front_page() && is_home() ) :
 						?>
 						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -47,7 +50,9 @@
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'geekpack-underscores' ); ?></button>
+					<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'geekpack-underscores' ); ?></button> -->
+				<!-- this will replace button in header at the breakpoint of mobile  -->
+					<button class="menu-toggle" href="#">&#9776; MENU</button>
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
