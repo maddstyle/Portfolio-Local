@@ -27,6 +27,8 @@ class Siteground_Migrator_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
+		// Check the hosting envirnoment.
+		self::check_hosting_environment();
 		// Set the temp directory.
 		self::set_temp_directory();
 		// Set the encryption key.
@@ -61,6 +63,18 @@ class Siteground_Migrator_Activator {
 		if ( empty( $encryption_key ) ) {
 			update_option( 'siteground_migrator_encryption_key', sha1( uniqid() ) );
 		}
+	}
+	/**
+	 * Check the hosting environment.
+	 *
+	 * @since  1.0.25
+	 *
+	 */
+	public static function check_hosting_environment() {
+		// Check if it's a SiteGround server.
+		$hosting_environment = ( file_exists( "/Z" ) ) ? 1 : 0;
+		// Update the option.
+		update_option( 'siteground_migrator_is_siteground_env', $hosting_environment );
 	}
 
 }

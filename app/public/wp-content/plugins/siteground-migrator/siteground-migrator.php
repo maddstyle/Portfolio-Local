@@ -16,7 +16,7 @@
  * Plugin Name:       SiteGround Migrator
  * Plugin URI:        http://siteground.com
  * Description:       This plugin is designed to migrate your WordPress site to SiteGround
- * Version:           1.0.24
+ * Version:           1.0.25
  * Author:            SiteGround
  * Author URI:        https://www.siteground.com
  * License:           GPL-2.0+

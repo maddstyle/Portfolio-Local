@@ -30,7 +30,7 @@
 				<div class="site-branding">
 					//this will add svg image into the logo area for a clear picture
 				<img src="<?php echo the_custom_logo(); ?>
-				/images/maddLogo.svg" alt="Maddstyle logo">
+				/images/maddLogo.svg#svgView(viewBox(0, 0, 62, 32))" alt="Maddstyle logo">
 					<?php
 					// the_custom_logo();
 					if ( is_front_page() && is_home() ) :

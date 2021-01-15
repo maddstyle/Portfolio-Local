@@ -46,6 +46,9 @@ In version 1.0.13 we've added WP-CLI command for migrations.
 
 == Changelog ==
 
+= 1.0.25 =
+* Added hosting environment check
+
 = 1.0.24 =
 * Improved error handling
 

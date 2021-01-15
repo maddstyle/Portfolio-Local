@@ -400,10 +400,17 @@ template {
 .wrap {
 	max-width: 1200px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .inner {
 	padding: 20px;
+	overflow: hidden;
+}
+
+#masthead.inner{
+	position: relative;
+	z-index: 999;
 }
 
 .header-section,
@@ -691,7 +698,8 @@ textarea {
 	font-weight: 900;
 	letter-spacing: 4px;
 	font-size: 20px;
-	border: 1px solid #fff;
+	border: 2px solid #d21f3c;
+	margin-left: -30px;
 }
 
 .button:hover {
@@ -759,8 +767,7 @@ a:active {
 .main-navigation {
 	clear: none;
 	display: block;
-	float: left;
-	width: 75%;
+	float: right;
 	margin-top: 1.4%
 }
 
@@ -814,10 +821,29 @@ a:active {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: grid;
+	float: right;
+	background: transparent;
+	border: none;
+	font-size: 20px;
+	padding: 5px;
 }
 
+.main-navigation.toggled {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #404040;
+}
 
+.main-navigation.toggled ul a {
+	border-bottom: none;
+	font-size: 16px;
+	text-align: left;
+}
+
+.main-navigation.toggled li {
+	padding-left: 0;
+}
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -950,19 +976,25 @@ a:active {
 # Header 
 --------------------------------------------------------------*/
 .site-branding {
-	width: 25%;
+	width:25%;
 	float: left;
 }
 
 .hero {
 	text-align: center;
-	width: 50%;
-	margin: 6% auto;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0 auto;
+	top: 25%;
+	left: 0;
 }
 
 .hero-heading {
 	text-transform: uppercase;
 	line-height: 44px;
+	margin-top: 5%;
+	margin-left: -30px;
 	margin-bottom: 0px;
 	font-size: 44px;
 }
@@ -970,6 +1002,7 @@ a:active {
 .hero-paragraph {
 	font-weight: 100;
 	margin-top: 4px;
+	margin-left: -30px;
 	font-size: 24px;
 }
 
@@ -1094,7 +1127,8 @@ a:active {
 --------------------------------------------------------------*/
 
 .featured-work {
-	background: url(http://localhost:10013/wp-content/uploads/2020/11/marble-2371776_1920.jpg);
+	/* background: url(http://localhost:10013/wp-content/uploads/2020/11/marble-2371776_1920.jpg); */
+	background: rgb(89, 89, 161);
 	background-size: cover;
 	background-position: center;
 }
@@ -1109,8 +1143,11 @@ a:active {
 }
 
 .individual-featured-work {
-	width: 33.3%;
+	width: 32%;
 	float: left;
+	margin-left: 10px;
+	border: 5px solid white;
+	border-radius: 20px;
 }
 
 .featured-work-button {
@@ -1172,8 +1209,8 @@ a:active {
     margin: 30px 0 0;
 }
 
-.portfolio-content-button {
-	margin-top: -20px;
+.portfolio-content-buttons {
+	margin-top: 80px;
 }
 
 .post-type-archive-portfolio #above-footer,
@@ -1182,8 +1219,8 @@ a:active {
 }
 
 .portfolio-content-text {
-	text-align: center;
-    margin-bottom: 30px;
+	  text-align: center;
+    margin-bottom: 80px;
 }
 
 .portfolio-content-text h3 {
@@ -1198,9 +1235,11 @@ a:active {
 
 #below-header {
 	background: url(http://localhost:10013/wp-content/uploads/2020/12/desktop-2325627-e1608611885774.jpg);
-	height: 210px;
+	height: 250px;
 	background-size: cover;
-	background-position: left top;
+	background-position: center;
+	margin-top: -100px;
+	margin-bottom: 50px;
 }
 
 #below-header h1 {
@@ -1465,24 +1504,108 @@ object {
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
-@media screen and (max-height: 900px) {
-	.hero {
-		margin: 10% auto;
+@media (max-width: 768px){
+	.site-branding {
+		width:130px;
 	}
+	.menu li {
+		padding: 0 4px !important;
+	}
+	
+	#primary-menu.menu {
+		font-size: 14px;
+	}
+
+	.button {
+		font-size: 14px;
+		padding: 10px 16px;
+	}
+
+  .hero-heading {
+		font-size: 34px;
+		line-height: 34px;
+		padding: 0 20px;
+	}
+	.hero {
+		margin-top: 20%;
+		margin-bottom: 10%;
+		margin-left: -20px;
+		/* margin-right: -10px; */
+	}
+	.custom-logo-link {
+    height: auto;
+    max-width: 100%;
+		margin-top: -10px;
+  } 
+
+	.individual-featured-work {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.custom-logo-link {
+    height: 100px;
+    max-width: 100%;
+    margin-top: -10px;
+  } 
+
 }
 
+@media screen and (max-height: 700px) {
+	/* .hero {
+		margin: 15% auto;
+	} */
+}
+/* 
 @media screen and (max-height: 1600px) {
 	.hero {
-		margin: 10% auto;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-left: -20px;
+	
 	}
-}
+	.custom-logo-link {
+    height: auto;
+    max-width: 100%;
+		margin-top: -10px;
+  } 
+} */
 
-@media screen and (min-width: 768px) {
-	.menu-toggle {
-		display: none;
+@media screen and (min-width: 600px) {
+	
+  .menu-primary-container {
+		float: none;
+	}
+	/* #masthead.inner{
+		background: #fff;
 	}
 
-	.main-navigation ul {
-		display: block;
+  .header-section .menu a:hover {
+		color: midnightblue;
+		border-bottom: none;
+		padding-bottom: 0;
+		transition:all 0.3s ease;
 	}
+
+  .header-section .current_page_item a {
+		padding-bottom: 0;
+	}
+
+  .site-branding {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.main-navigation {
+		display: grid;
+		margin: 0 auto;
+		float: none;
+		margin-top: 0;
+	}
+
+	.menu-toggle, .main-navigation.toggled ul {
+		float: none;
+		outline: none;
+	} */
 }
