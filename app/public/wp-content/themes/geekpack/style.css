@@ -408,7 +408,7 @@ template {
 	overflow: hidden;
 }
 
-#masthead.inner{
+#masthead.inner {
 	position: relative;
 	z-index: 999;
 }
@@ -438,7 +438,7 @@ template {
 }
 
 .page #primary,
-.home #primary, 
+.home #primary,
 .single-portfolio #primary,
 .post-type-archive-portfolio #primary {
 	width: 100%;
@@ -737,15 +737,13 @@ a:active {
 	padding-bottom: 5px !important
 }
 
-.header-section
-.current_page_item a {
+.header-section .current_page_item a {
 	color: midnightblue;
 	border-bottom: 1px solid midnightblue;
 	padding-bottom: 5px;
 }
 
-.header-section
- #menu-item-59.current_page_item a {
+.header-section #menu-item-59.current_page_item a {
 	color: #414042;
 	border-bottom: none;
 	padding-bottom: 0;
@@ -876,6 +874,7 @@ a:active {
 	padding-left: 20px;
 	font-size: 20px;
 }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -900,7 +899,7 @@ a:active {
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	clip-path: none;
-	color: #21759b;
+	color: #21749b;
 	display: block;
 	font-size: 14px;
 	font-size: 0.875rem;
@@ -976,7 +975,7 @@ a:active {
 # Header 
 --------------------------------------------------------------*/
 .site-branding {
-	width:25%;
+	width: 25%;
 	float: left;
 }
 
@@ -1072,6 +1071,8 @@ a:active {
 
 .widget-title {
 	text-align: center;
+	color: #404040;
+	/* font-weight: 500 */
 }
 
 #front-page-2 {
@@ -1100,7 +1101,7 @@ a:active {
 
 #front-page-2 .about-heading {
 	font-size: 2-px;
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 	font-size: 22px;
 	margin: 20px 0;
 }
@@ -1128,7 +1129,7 @@ a:active {
 
 .featured-work {
 	/* background: url(http://localhost:10013/wp-content/uploads/2020/11/marble-2371776_1920.jpg); */
-	background: rgb(89, 89, 161);
+	background: #101d48;
 	background-size: cover;
 	background-position: center;
 }
@@ -1146,8 +1147,8 @@ a:active {
 	width: 32%;
 	float: left;
 	margin-left: 10px;
-	border: 5px solid white;
-	border-radius: 20px;
+	/* border: 5px solid white;
+	border-radius: 20px; */
 }
 
 .featured-work-button {
@@ -1157,33 +1158,33 @@ a:active {
 }
 
 .hovereffect {
-	width:100%;
-	height:100%;
-	float:left;
-	overflow:hidden;
-	position:relative;
-	text-align:center;
-	cursor:default;
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
 }
 
 .hovereffect .overlay {
-	width:100%;
-	height:100%;
-	position:absolute;
-	overflow:hidden;
-	top:0;
-	left:0;
-	opacity:0;
-	background-color:rgba(0,0,0,0.7);
-	-webkit-transition:all .4s ease-in-out;
-	transition:all .4s ease-in-out
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out
 }
 
 .hovereffect img {
-	display:block;
-	position:relative;
-	-webkit-transition:all .4s linear;
-	transition:all .4s linear;
+	display: block;
+	position: relative;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
 }
 
 .hovereffect h1 {
@@ -1191,22 +1192,22 @@ a:active {
 }
 
 .hovereffect:hover img {
-	-ms-transform:scale(1.2);
-	-webkit-transform:scale(1.2);
-	transform:scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .hovereffect:hover .overlay {
-	opacity:1;
-	filter:alpha(opacity=100);
+	opacity: 1;
+	filter: alpha(opacity=100);
 }
 
 .portfolio-content {
 	width: 33.3%;
-    text-align: center;
-    float: left;
-    padding: 5px;
-    margin: 30px 0 0;
+	text-align: center;
+	float: left;
+	padding: 5px;
+	margin: 30px 0 0;
 }
 
 .portfolio-content-buttons {
@@ -1219,13 +1220,13 @@ a:active {
 }
 
 .portfolio-content-text {
-	  text-align: center;
-    margin-bottom: 80px;
+	text-align: center;
+	margin-bottom: 80px;
 }
 
 .portfolio-content-text h3 {
 	width: 70%;
-    margin: 30px auto;
+	margin: 30px auto;
 }
 
 
@@ -1252,7 +1253,7 @@ a:active {
 --------------------------------------------------------------*/
 
 #above-footer {
-	background: #57c1ca;
+	background: #d2d5d5;
 	clear: both;
 	color: #fff;
 }
@@ -1269,8 +1270,8 @@ a:active {
 #nf-field-1-container,
 #nf-field-2-container {
 	width: 50%;
-    float: left;
-    clear: none;
+	float: left;
+	clear: none;
 }
 
 #nf-field-1-container {
@@ -1291,7 +1292,7 @@ a:active {
 }
 
 .nf-error .ninja-forms-field {
-    border: 1px solid #fff !important;
+	border: 1px solid #fff !important;
 }
 
 .nf-field-element textarea {
@@ -1303,7 +1304,7 @@ a:active {
 	font-weight: 100 !important;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-family: 'oswald';
+	font-family: 'oswald', sans-serif;
 }
 
 /* .nf-field-element input,
@@ -1319,13 +1320,13 @@ a:active {
 	background: #fff;
 	color: #57c1ca;
 	border-radius: 0;
-    text-decoration: none;
-    padding: 14px 30px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 4px;
-    font-size: 16px;
-    border: 2px solid #fff;
+	text-decoration: none;
+	padding: 14px 30px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 4px;
+	font-size: 16px;
+	border: 2px solid #fff;
 }
 
 #nf-field-4:hover {
@@ -1357,11 +1358,11 @@ a:active {
 	margin-bottom: -20px
 }
 
-.footer-section .menu-primary-container{
+.footer-section .menu-primary-container {
 	float: none;
 }
 
-.footer-section .menu{
+.footer-section .menu {
 	display: inline-flex;
 	text-align: center;
 	margin: 0;
@@ -1374,7 +1375,7 @@ a:active {
 }
 
 .copyright {
-	font-family: 'Oswald';
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 }
 
@@ -1425,7 +1426,7 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	width: 200px;
-  padding-top: 15px;
+	padding-top: 15px;
 	display: inline-block;
 }
 
@@ -1504,39 +1505,63 @@ object {
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
-@media (max-width: 768px){
-	.site-branding {
-		width:130px;
+@media (max-width: 1200px) {
+	.portfolio-content h1 {
+		font-size: 1.5em;
 	}
-	.menu li {
-		padding: 0 4px !important;
+	.hero-heading {
+		font-size: 28px;
+		line-height: 34px;
+		padding: 0 20px;
+	}.hero-paragraph {
+		font-size: 20px;
 	}
-	
-	#primary-menu.menu {
-		font-size: 14px;
-	}
-
 	.button {
 		font-size: 14px;
 		padding: 10px 16px;
 	}
 
-  .hero-heading {
-		font-size: 34px;
-		line-height: 34px;
-		padding: 0 20px;
+	.portfolio-content h1 {
+		font-size: 1.25em;
 	}
-	.hero {
-		margin-top: 20%;
-		margin-bottom: 10%;
-		margin-left: -20px;
-		/* margin-right: -10px; */
+
+	.portfolio-content-button .button {
+		font-size: 16px;
+		padding: 10px 22px;
 	}
+}
+
+@media (max-width: 768px) {
+	/* .site-branding {
+		width: 130px;
+	} */
+
+	.menu li {
+		padding: 0 4px !important;
+	}
+
+	#primary-menu.menu a {
+		font-size: 14px;
+	}
+
+	
+
+	
+
+	/* .hero {
+		font-size: 20px; */
+	/* margin-top: 20%;
+		margin-bottom: 10%; */
+	/* margin-right: -10px; */
+	/* } */
+
+	
+
 	.custom-logo-link {
-    height: auto;
-    max-width: 100%;
+		height: auto;
+		max-width: 100%;
 		margin-top: -10px;
-  } 
+	}
 
 	.individual-featured-work {
 		width: 80%;
@@ -1544,19 +1569,67 @@ object {
 		margin: 0 auto;
 	}
 
+	.button {
+		font-size: 14px;
+		padding: 10px 16px;
+	}
+
 	.custom-logo-link {
-    height: 100px;
-    max-width: 100%;
-    margin-top: -10px;
-  } 
+		height: 100px;
+		max-width: 100%;
+		margin-top: -10px;
+	}
 
+	.portfolio-content {
+		font-size: 1.25em;
+		width: 80%;
+		text-align: center;
+		float: none;
+		padding: 5px;
+		margin: 0 auto 30px;
+	}
+
+	.portfolio-content h1 {
+		font-size: 1.65em;
+	}
+
+	.portfolio-content-text {
+		margin-bottom: 30px;
+	}
+
+	.post-type-archive-portfolio #above-footer,
+	.single-portfolio #above-footer {
+		margin-top: 50px;
+	}
+
+	.portfolio-content-buttons {
+		display: inline-grid;
+		margin-top: 10px;
+	}
+
+	.portfolio-content-buttons a {
+		margin-top: 5px;
+	}
+
+	.footer-section .menu a {
+		font-size: 18px;
+	}
+
+	.footer-logo {
+		max-width: 30%;
+	}
+
+	.copyright {
+		margin-bottom: 10px;
+	}
 }
 
-@media screen and (max-height: 700px) {
-	/* .hero {
-		margin: 15% auto;
-	} */
+@media (max-width: 700px) {
+	.hero {
+		margin: auto;
+	}
 }
+
 /* 
 @media screen and (max-height: 1600px) {
 	.hero {
@@ -1572,27 +1645,44 @@ object {
   } 
 } */
 
-@media screen and (min-width: 600px) {
-	
-  .menu-primary-container {
+@media (max-width: 600px) {
+
+	.menu-primary-container {
 		float: none;
 	}
-	/* #masthead.inner{
+
+	.footer-section .menu {
+		display: block;
+	}
+
+	.footer-section .menu a {
+		font-size: 18px;
+	}
+
+	.footer-logo {
+		max-width: 30%;
+	}
+
+	.copyright {
+		margin-bottom: -20px;
+	}
+
+	#masthead.inner {
 		background: #fff;
 	}
 
-  .header-section .menu a:hover {
+	.header-section .menu a:hover {
 		color: midnightblue;
 		border-bottom: none;
 		padding-bottom: 0;
-		transition:all 0.3s ease;
+		transition: all 0.3s ease;
 	}
 
-  .header-section .current_page_item a {
+	.header-section .current_page_item a {
 		padding-bottom: 0;
 	}
 
-  .site-branding {
+	.site-branding {
 		float: none;
 		margin: 0 auto;
 	}
@@ -1604,8 +1694,23 @@ object {
 		margin-top: 0;
 	}
 
-	.menu-toggle, .main-navigation.toggled ul {
+	.menu-toggle,
+	.main-navigation.toggled ul {
 		float: none;
 		outline: none;
-	} */
+	}
+
+	.menu-toggle {
+		margin: -60px;
+	}
+
+	#below-header {
+		background-position: top left;
+	}
+
+	#below-header h1 {
+		text-align: center;
+		margin-top: 120px;
+		font-size: 28px;
+	}
 }

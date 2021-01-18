@@ -22,7 +22,7 @@
 			<div id="footer" class="widget-area">
 					<?php dynamic_sidebar('footer'); ?></
 			</div>
-<!-- commented out because i'm creating my own footer content -->
+<!-- commented out because i'm creating my own footer content in Dashboard/Widgets Area -->
 			<!--
 				<div class="site-info">
 					<a href="<?php echo esc_url(__('https://wordpress.org/', 'geekpack-underscores')); ?>">
