@@ -455,16 +455,16 @@ input,
 select,
 optgroup,
 textarea {
-	color: #404040;
-	font-family: 'open sans';
-	font-size: 16px;
+	color: #57595D;
+	font-family: 'Futura';
+	font-size: 12px;
 	font-size: 1rem;
 	line-height: 1.5;
 }
 
 h1 {
 	clear: both;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Futura', sans-serif;
 	font-weight: 100;
 	letter-spacing: 1px;
 }
@@ -475,7 +475,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Futura', sans-serif;
 }
 
 p {
@@ -615,7 +615,7 @@ input[type="submit"] {
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
 	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
+	color: #808080;
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
@@ -690,7 +690,7 @@ textarea {
 }
 
 .button {
-	background: #d21f3c;
+	background: #d5455d;
 	color: #fff;
 	text-decoration: none;
 	padding: 14px 30px;
@@ -698,14 +698,14 @@ textarea {
 	font-weight: 900;
 	letter-spacing: 4px;
 	font-size: 20px;
-	border: 2px solid #d21f3c;
+	border: 2px solid #d5455d;
 	margin-left: -30px;
 }
 
 .button:hover {
 	background: #fff;
-	color: #d21f3c;
-	border: 2px solid #d21f3c;
+	color: #d5455d;
+	border: 2px solid #d5455d;
 }
 
 /*--------------------------------------------------------------
@@ -715,7 +715,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #d21f3c;
+	color: #d5455d;
 	text-decoration: none;
 }
 
@@ -830,7 +830,7 @@ a:active {
 .main-navigation.toggled {
 	background: #fff;
 	padding: 20px;
-	border: 1px solid #404040;
+	border: 1px solid #D3D3D3;
 }
 
 .main-navigation.toggled ul a {
@@ -1071,7 +1071,7 @@ a:active {
 
 .widget-title {
 	text-align: center;
-	color: #404040;
+	color: #fff;
 	/* font-weight: 500 */
 }
 
@@ -1086,7 +1086,7 @@ a:active {
 
 #front-page-2 .widget-title {
 	border-bottom: 1px solid #d21f3c;
-	margin-top: 60px;
+	margin-top: 0px;
 	text-align: left;
 }
 
@@ -1129,7 +1129,7 @@ a:active {
 
 .featured-work {
 	/* background: url(http://localhost:10013/wp-content/uploads/2020/11/marble-2371776_1920.jpg); */
-	background: #101d48;
+	background: #083055;
 	background-size: cover;
 	background-position: center;
 }
@@ -1253,7 +1253,7 @@ a:active {
 --------------------------------------------------------------*/
 
 #above-footer {
-	background: #d2d5d5;
+	background: #083055;
 	clear: both;
 	color: #fff;
 }
@@ -1318,7 +1318,7 @@ a:active {
 
 #nf-field-4 {
 	background: #fff;
-	color: #57c1ca;
+	color: #d21f3c;
 	border-radius: 0;
 	text-decoration: none;
 	padding: 14px 30px;
@@ -1330,7 +1330,7 @@ a:active {
 }
 
 #nf-field-4:hover {
-	background: #57c1ca;
+	background: #d5455d;
 	color: #fff;
 	border: 2px solid #fff;
 }
