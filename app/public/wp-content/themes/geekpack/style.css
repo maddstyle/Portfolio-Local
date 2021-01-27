@@ -405,6 +405,8 @@ template {
 
 .inner {
 	padding: 20px;
+	padding-right: 0px;
+	padding-left: 30px;
 	overflow: hidden;
 }
 
@@ -1071,8 +1073,7 @@ a:active {
 
 .widget-title {
 	text-align: center;
-	color: #fff;
-	/* font-weight: 500 */
+	color: #808080;
 }
 
 #front-page-2 {
@@ -1121,6 +1122,9 @@ a:active {
 
 #front-page-3 .inner {
 	padding: 40px 20px 0px 20px;
+}
+#front-page-3 h1{
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1203,17 +1207,37 @@ a:active {
 }
 
 .portfolio-content {
-	width: 33.3%;
+	width: 31%;
 	text-align: center;
 	float: left;
 	padding: 5px;
-	margin: 30px 0 0;
-	border: 2px solid gray;
+	margin: 30px 20px 0 0;
+	box-shadow: 0 0 10px 3px rgba(0, 0, 3, .2);
 }
 
 
-.portfolio-content-button {
-	margin-top: 30px;
+/* .portfolio-content .custom-logo {
+	box-shadow: none
+} */
+
+.portfolio-content-button .button a {
+	margin-top: 50px;
+	background: #d5455d;
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 30px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 4px;
+	font-size: 15px;
+	margin-left: 80px;
+	/* border: 2px solid #d5455d; */
+}
+
+.portfolio-content-button:hover {
+	background: #fff;
+	color: #d5455d;
+	/* border: 2px solid #d5455d; */
 }
 
 .post-type-archive-portfolio #above-footer,
@@ -1231,7 +1255,17 @@ a:active {
 	margin: 30px auto;
 }
 
+.portfolio-content img {
+	margin-bottom: 20px;
+}
 
+.portfolio-content a {
+	color: #808080;
+}
+
+.portfolio-content-button a {
+ color: white;
+}
 /*--------------------------------------------------------------
 # Below Header
 --------------------------------------------------------------*/
@@ -1262,6 +1296,7 @@ a:active {
 
 #above-footer h1 {
 	margin-bottom: 40px;
+	color: white;
 }
 
 #above-footer .widget,
@@ -1347,6 +1382,10 @@ a:active {
 } */
 #footer {
 	padding-top: 20px;
+}
+
+#footer a {
+	color: #808080;
 }
 
 .footer-section .widget {
@@ -1604,12 +1643,12 @@ object {
 		margin-top: 50px;
 	}
 
-	.portfolio-content-buttons {
+	.portfolio-content-button {
 		display: inline-grid;
 		margin-top: 10px;
 	}
 
-	.portfolio-content-buttons a {
+	.portfolio-content-button a {
 		margin-top: 5px;
 	}
 

@@ -21,7 +21,7 @@ get_header( 'widgets' );
 		<div id="below-header" class="widget-area">
 			<div class="wrap">
 				<div class="inner"><?php dynamic_sidebar( 'below-header' ); ?>
-					<h1>Our Work</h1>
+					<h1>My Work</h1>
 				</div>
 			</div>
 		</div>
@@ -50,6 +50,7 @@ get_header( 'widgets' );
 						<div class="portfolio-content-button"><a href="<?php the_permalink(); ?>" class="button">View Project</a></div>
 
 					</div>	
+					
 
 				<?php endwhile; // End of the loop.?>
 
